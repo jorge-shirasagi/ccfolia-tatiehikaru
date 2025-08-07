@@ -1,0 +1,14 @@
+@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/board.css");
+@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/asset/boardBackground.css");
+@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/asset/boardForeground.css");
+@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/asset/diceSymbol.css");
+@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/asset/markerPanel.css");
+@import url("https://yudukiak.github.io/ccfoliaCSS/CSS/asset/screenPanel.css");
+
+figure > * {
+    display: none !important;
+}
+figure > img[aria-label*="ひごろも"],
+figure > img[aria-label*="ひごろも"]+span {
+    display: block !important;
+}
